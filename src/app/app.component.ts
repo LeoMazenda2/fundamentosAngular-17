@@ -14,6 +14,36 @@ export class AppComponent {
   constructor() {} 
 
   // ngIf -> Usando o complemento else, samod para exibir ou ocultar elementos por uma desisão logica 
-
   // ngSwitch
+
+  // Diretivas extruturais (*ngFor <-> a mais usada)
+
+  clientes = [
+    {
+      nome: "Leonildo Mazenda",
+      idade: "20",
+      genero: "Mascolino",
+    },
+    {
+      nome: "Esperança de Lemamo Mazenda",
+      idade: "40",
+      genero: "Feminino",
+    },
+    {
+      nome: "Welvio Vivaldo de Lemos Mazenda",
+      idade: "17",
+      genero: "Mascolino",
+    },
+    {
+      nome: "Yohanna Nayara de Lemos Mazenda",
+      idade: "10",
+      genero: "Feminino",
+    },
+    {
+      nome: "Pedro Mateus",
+      idade: "56",
+      genero: "Mascolino",
+    }
+  ]
+
 }

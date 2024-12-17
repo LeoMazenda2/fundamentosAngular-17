@@ -5,7 +5,7 @@
 </ng-template> -->
 
 <!-- ----------------------------------------------------------------------------------- -->
-
+<!-- 
 <span [ngSwitch]="title">
   <p *ngSwitchCase="'true'"> 
     Parágrafo de condição verdadeira 
@@ -19,5 +19,22 @@
     Este é um parágrafo pré-definido 
   </p>
 </span>
+
+-->
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+<table>
+  <th>Nome</th>
+  <th>genero</th>
+  <th>Idade</th>
+
+  <tr *ngFor="let cliente of clientes">
+    <td>{{cliente.nome}}</td>
+    <td>{{cliente.genero}}</td>
+    <td>{{cliente.idade}}</td>
+  </tr>
+</table>
+
 
 <router-outlet></router-outlet>
