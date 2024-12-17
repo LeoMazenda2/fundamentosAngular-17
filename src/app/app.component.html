@@ -1,2 +1,8 @@
+<h1 *ngIf="title; else mensagemPadrao">{{ title }}</h1>
 
-<router-outlet />
+<ng-template #mensagemPadrao>
+  <h1>Olá caro aluno do Angula</h1>
+</ng-template>
+
+
+<router-outlet></router-outlet>
