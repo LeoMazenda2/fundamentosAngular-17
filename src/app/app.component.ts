@@ -23,6 +23,7 @@ export class AppComponent {
       nome: "Leonildo Mazenda",
       idade: "20",
       genero: "Mascolino",
+      Salario: 250000
     },
     {
       nome: "Esperança de Lemamo Mazenda",
@@ -33,16 +34,19 @@ export class AppComponent {
       nome: "Welvio Vivaldo de Lemos Mazenda",
       idade: "17",
       genero: "Mascolino",
+      Salario: 650000
     },
     {
       nome: "Yohanna Nayara de Lemos Mazenda",
       idade: "10",
       genero: "Feminino",
+      Salario: 250000
     },
     {
       nome: "Pedro Mateus",
       idade: "56",
       genero: "Mascolino",
+      Salario: 556001
     }
   ]
 

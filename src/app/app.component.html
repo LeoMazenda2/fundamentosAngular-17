@@ -28,13 +28,14 @@
   <th>Nome</th>
   <th>genero</th>
   <th>Idade</th>
-
+  <th>Salario</th>
   <tr *ngFor="let cliente of clientes">
-    <td>{{cliente.nome}}</td>
-    <td>{{cliente.genero}}</td>
+    <td>{{cliente.nome | uppercase}}</td>
+    <td>{{cliente.genero | sexo}}</td>
     <td>{{cliente.idade}}</td>
+    <td>{{cliente.Salario | currency: 'AOA ': 'KZ '}}</td>
   </tr>
 </table>
 
-
+<span>{{clientes | json}}</span>
 <router-outlet></router-outlet>
