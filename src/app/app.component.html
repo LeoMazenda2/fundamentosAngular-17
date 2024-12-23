@@ -24,24 +24,7 @@
 
 <!-- ----------------------------------------------------------------------------------- -->
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Nome</th>
-      <th>Gênero</th>
-      <th>Idade</th>
-      <th>Salário</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let cliente of clientes">
-      <td>{{cliente.nome | uppercase}}</td>
-      <td>{{cliente.sexo | sexo}}</td>
-      <td>{{cliente.idade}}</td>
-      <td>{{cliente.Salario | currency: 'KZ '}}</td>
-    </tr>
-  </tbody>
-</table>
+<app-toolbar></app-toolbar>
 
-<span>{{clientes | json}}</span>
+
 <router-outlet></router-outlet>

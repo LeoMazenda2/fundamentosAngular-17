@@ -15,36 +15,4 @@ export class AppComponent {
 
   // Diretivas extruturais (*ngFor <-> a mais usada)
 
-  clientes = [
-    {
-      nome: "Leonildo Mazenda",
-      idade: "20",
-      sexo: "m",
-      Salario: 250000
-    },
-    {
-      nome: "Esperança de Lemamo Mazenda",
-      idade: "40",
-      sexo: "f",
-    },
-    {
-      nome: "Welvio Vivaldo de Lemos Mazenda",
-      idade: "17",
-      sexo: "m",
-      Salario: 650000
-    },
-    {
-      nome: "Yohanna Nayara de Lemos Mazenda",
-      idade: "10",
-      sexo: "f",
-      Salario: 250000
-    },
-    {
-      nome: "Pedro Mateus",
-      idade: "56",
-      sexo: "m",
-      Salario: 556001
-    }
-  ]
-
 }
