@@ -9,6 +9,9 @@ const routes: Routes = [
   {path:'home', component: HomeComponent},
   {path:'novo', component: NovoComponent},
   {path:'sobre', component: SobreComponent},
+  //Lazy loading
+  {path:'produto', 
+    loadChildren: () => import('./features/produto/produto.module').then(m => m.ProdutoModule)} 
 ];
 
 @NgModule({
