@@ -17,7 +17,6 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTableModule} from '@angular/material/table';
-import { ProdutoComponent } from './features/producto/services/produto/produto.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { ProdutoComponent } from './features/producto/services/produto/produto.c
     DashboardComponent,
     NovoComponent,
     SobreComponent,
-    HomeComponent,
-    ProdutoComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
