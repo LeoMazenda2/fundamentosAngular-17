@@ -22,19 +22,20 @@ export class HomeComponent {
 
   title = null; 
 
-  frutas: string[] = [];
+// // Pipe do rxjs !== angular Pipe
+//   frutas: string[] = [];
   
-  frutas$ = of('banana', 'manga', 'uva','pera','melancia','abacaxi')
+//   frutas$ = of('banana', 'manga', 'uva','pera','melancia','abacaxi')
 
   constructor (){
-   this.frutas$.pipe(
-      tap(console.log),
-      map(fruta => fruta.toUpperCase()),
-      tap(console.log),
-      filter(fruta => fruta.startsWith('M') || fruta.startsWith('B')),
-    ).subscribe( resultado => {
-      this.frutas.push(resultado)
-    });
+  //  this.frutas$.pipe(
+  //     tap(console.log),
+  //     map(fruta => fruta.toUpperCase()),
+  //     tap(console.log),
+  //     filter(fruta => fruta.startsWith('M') || fruta.startsWith('B')),
+  //   ).subscribe( resultado => {
+  //     this.frutas.push(resultado)
+  //   });
   }
 
   clientes!: Pessoas;
